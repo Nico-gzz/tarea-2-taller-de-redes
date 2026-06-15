@@ -32,5 +32,7 @@ El repositorio incluye las imágenes lógicas de respaldo dentro de la estructur
 * `terminal2.png`: Registra el estado activo de los contenedores mediante `docker ps`.
 * `wireshark1.png`: Expone el desglose analítico de los paquetes HTTP capturados en la interfaz bridge.
 
-## Configuración e Instalación (Setup)
-Para replicar la infraestructura localmente en una distribución basada en Linux, sigue las instrucciones detalladas a continuación.
+## Contacto
+Desarrollado por el Grupo de Trabajo de la Facultad de Ingeniería y Ciencias (UDP):
+* **Nicolás Esteban González Fontecilla** - [nicolas.gonzalez9@mail.udp.cl](mailto:nicolas.gonzalez9@mail.udp.cl)
+* **David Benjamin Fuentes Castro** - [david.fuentes2@mail.udp.cl](mailto:david.fuentes2@mail.udp.cl)
