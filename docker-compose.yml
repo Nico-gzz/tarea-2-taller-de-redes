@@ -1,0 +1,19 @@
+services:
+  nginx-server:
+    image: nginx:latest
+    container_name: servidor_http
+    ports:
+      - "8080:80"
+    networks:
+      - red_tarea2
+
+  wget-client:
+    image: alpine:latest
+    container_name: cliente_http
+    command: tail -f /dev/null
+    networks:
+      - red_tarea2
+
+networks:
+  red_tarea2:
+    driver: bridge
